@@ -160,7 +160,7 @@ public class Shapes {
         drawTaskNum(3, 10, -200, 40);
         timesTurned = 0;
         for(int i=0;i<9;i++) {
-            drawPolygon(i+3,20,i*40 - 200,-10, new java.awt.Color(64, i*255/9, 255));
+            drawPolygon(9-i+3,20,i*40 - 200,-10, new java.awt.Color(64, i*255/9, 255));
         }
         System.out.println("Turt has turned "+timesTurned+" times!");
 
